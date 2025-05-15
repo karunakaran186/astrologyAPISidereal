@@ -15,6 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "swisseph": "https://github.com/kunalbanerjee/swisseph.git"
+    "swisseph": "^2.10.1",
   }
 }
