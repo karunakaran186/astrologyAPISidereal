@@ -1,16 +1,20 @@
 {
   "name": "sidereal-api",
   "version": "1.0.0",
-  "description": "Swiss Ephemeris based Sidereal Astrology API",
+  "description": "Horoscope API using swisseph and Node.js",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": ["astrology", "sidereal", "swisseph", "nodejs", "ephemeris"],
-  "author": "Your Name",
+  "keywords": [
+    "astrology",
+    "sidereal",
+    "swisseph"
+  ],
+  "author": "ProjXPT",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.4",
-    "swisseph": "git+https://github.com/kunalbanerjee/swisseph.git"
+    "express": "^4.18.2",
+    "swisseph": "https://github.com/kunalbanerjee/swisseph.git"
   }
 }
